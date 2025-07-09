@@ -11,7 +11,7 @@ function HeroSection() {
 
     function getCourses() {
         axios
-            .get("/cards.json")
+            .get("cards.json")
             .then((response) => {
                 setCourses(response.data);
                 setLoading(false);
@@ -54,13 +54,13 @@ function HeroSection() {
                 <div className="carousel slide m-1" data-bs-ride="carousel" id="hero-carousel">
                     <div className="carousel-inner z-0">
                         <div className="carousel-item active" data-bs-interval="2000">
-                            <img src="/images/carousel1.jpg" alt="course-img" height="100%" width="100%" />
+                            <img src="images/carousel1.jpg" alt="course-img" height="100%" width="100%" />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src="/images/carousel2.jpg" alt="course-img" height="100%" width="100%" />
+                            <img src="images/carousel2.jpg" alt="course-img" height="100%" width="100%" />
                         </div>
                         <div className="carousel-item" data-bs-interval="2000">
-                            <img src="/images/carousel3.jpg" alt="course-img" height="100%" width="100%" />
+                            <img src="images/carousel3.jpg" alt="course-img" height="100%" width="100%" />
                         </div>
                     </div>
                     <button
