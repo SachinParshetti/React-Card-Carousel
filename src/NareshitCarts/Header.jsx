@@ -18,7 +18,7 @@ function Header()
   {/* Logo */}
   <div className="col-12 col-md-auto text-center text-md-start">
     <img
-      src='public/images/naresh-it-logo2.png'
+      src='/images/naresh-it-logo2.png'
       alt="Naresh IT Logo"
       width="200"
       height="50"

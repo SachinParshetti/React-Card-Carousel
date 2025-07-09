@@ -5,7 +5,7 @@
         "faculty":"Mr. Sumanth",
         "duration":"2 Month",
         "rating":"4.5",
-        "image":"public/images/card-1.png"
+        "image":"/images/card-1.png"
     },
     {
         "title":"Power BI",
@@ -13,7 +13,7 @@
         "faculty":"Mr. Laxman",
         "duration":"2 Month",
         "rating":"5",
-        "image":"public/images/card2.png"
+        "image":"/images/card2.png"
     },
     {
         "title":"DavOps with AWS",
@@ -21,7 +21,7 @@
         "faculty":"Mr. Rehman",
         "duration":"3 Month",
         "rating":"5",
-        "image":"public/images/card-3.png"
+        "image":"/images/card-3.png"
     },
     {
         "title":"Full Stack Java",
@@ -29,7 +29,7 @@
         "faculty":"Real time expert",
         "duration":"6 Month",
         "rating":"5",
-        "image":"public/images/card-4.png"
+        "image":"/images/card-4.png"
     },
     {
         "title":"Full Stack Python",
@@ -37,7 +37,7 @@
         "faculty":"Real time expert",
         "duration":"5 Month",
         "rating":"5",
-        "image":"public/images/card-5.png"
+        "image":"/images/card-5.png"
     }
 
 ]
