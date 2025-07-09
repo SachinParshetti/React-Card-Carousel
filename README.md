@@ -1,14 +1,31 @@
 # 🧠 Naresh IT Courses Carousel – React Project
 
-This project is a modern React-based UI that displays a carousel of featured images and dynamically loaded course cards using data from a local JSON file. It utilizes **Bootstrap Carousel**, **React Slick Slider**, and **Axios** for fetching course data.
+This project is a modern React-based UI that displays a carousel of featured images and dynamically loaded course cards using data from a local JSON file. It uses **Bootstrap Carousel**, **React Slick Slider**, and **Axios** for fetching course data.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Click here to view the live site](https://github.com/SachinParshetti/React-Card-Carousel/)
+
+> Replace the URL above with your actual Netlify/Vercel link.
+
+---
+
+## 📸 UI Preview
+
+### 🖼 Hero Section with Carousel + Course Cards
+
+![Hero Section Preview](image.png)
+
+---
 
 ## 📁 Project Structure
 
 project-root/
 ├── public/
-│ ├── images/ # Carousel images
+│ ├── images/ # Carousel images (carousel1.jpg, etc.)
 │ ├── cards.json # Course data in JSON format
-│ └── videos/ # (optional) Video files
 ├── src/
 │ ├── NareshItCarts/
 │ │ ├── HeroSection.jsx # Hero section with carousel and courses
@@ -16,41 +33,38 @@ project-root/
 │ │ ├── Header.jsx # Header component
 │ │ ├── header.css # Header styles
 │ │ └── NareshItPage.jsx # Page combining everything
-│ ├── assets/ # (optional) Static assets
 │ ├── App.jsx
 │ └── app.css
+├── screenshots/
+│ └── hero-preview.png # UI preview screenshot
+├── README.md
 ├── package.json
-├── vite.config.js
-└── README.md
+└── vite.config.js
 
 yaml
 Copy
 Edit
 
 ---
-# Naresh IT Courses Carousel
-## 📸 Screenshots
-![Naresh IT Courses Carousel](image.png)
 
-
-Live Demo: [Naresh IT Courses Carousel]()
 ## 🚀 Features
 
-- 🎠 Bootstrap Carousel for featured course banners
+- 🎠 Bootstrap Carousel for featured banners
 - 🎓 Dynamic course card slider using React Slick
-- 📦 Local JSON (`cards.json`) used to simulate API data
-- 📱 Responsive design (mobile-friendly)
-- ✅ Simple, clean code structure using React Hooks
+- ⚡ Fetch course data from local JSON (simulates API)
+- 🧠 Responsive layout (mobile/tablet/desktop)
+- 💻 Clean structure using React Hooks & functional components
 
 ---
 
 ## 📦 Technologies Used
 
 - React.js
+- Vite
 - Axios
-- Bootstrap 5
 - React Slick (`react-slick`)
-- Vite (React + Vite project structure)
+- Bootstrap 5
+- HTML/CSS
 
 ---
 
@@ -58,9 +72,43 @@ Live Demo: [Naresh IT Courses Carousel]()
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nareshit-carousel.git
+   git clone https://github.com/SachinParashetti/nareshit-carousel.git
    cd nareshit-carousel
+Install dependencies
 
-   🙌 Author
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Open in browser
+Visit http://localhost:5173
+
+🧪 Sample cards.json Format
+json
+Copy
+Edit
+[
+  {
+    "title": "Full Stack Web Development",
+    "image": "/images/fullstack.jpg",
+    "rating": 5,
+    "date": "2025-08-01",
+    "faculty": "Mr. Naresh",
+    "duration": "3 Months"
+  }
+]
+Make sure this file is saved inside the public/ folder as cards.json.
+
+📜 License
+This project is licensed under the MIT License
+
+🙌 Author
 Sachin Parashetti
-
+GitHub – [@SachinParashetti](https://github.com/SachinParshetti)
+LinkedIn – [sachin-parashetti](https://www.linkedin.com/in/sachin-parashetti-99b255259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
