@@ -1,118 +1,66 @@
-🌦️ React Weather App
-A responsive and visually engaging weather forecast application built with React, Bootstrap, and the OpenWeatherMap API. Users can search for any city and instantly view real-time weather data including temperature, humidity, visibility, wind speed, and more — along with a live clock, greeting message, and animated UI cards.
+# 🧠 Naresh IT Courses Carousel – React Project
 
-![Weather App Preview](/image.png)
+This project is a modern React-based UI that displays a carousel of featured images and dynamically loaded course cards using data from a local JSON file. It utilizes **Bootstrap Carousel**, **React Slick Slider**, and **Axios** for fetching course data.
 
-## 🌐 Live Preview
+## 📁 Project Structure
 
-🔗 [Click here to view the live app](## 🌐 Live Preview
+project-root/
+├── public/
+│ ├── images/ # Carousel images
+│ ├── cards.json # Course data in JSON format
+│ └── videos/ # (optional) Video files
+├── src/
+│ ├── NareshItCarts/
+│ │ ├── HeroSection.jsx # Hero section with carousel and courses
+│ │ ├── herosection.css # Custom styles
+│ │ ├── Header.jsx # Header component
+│ │ ├── header.css # Header styles
+│ │ └── NareshItPage.jsx # Page combining everything
+│ ├── assets/ # (optional) Static assets
+│ ├── App.jsx
+│ └── app.css
+├── package.json
+├── vite.config.js
+└── README.md
 
-🔗 [Click here to view the live app](https://sachinparshetti.github.io/React-weather-app/))
-
-🚀 Features
-🔍 Search by City — Enter any city name to get live weather updates.
-
-🕒 Live Clock — Shows current time and date using setInterval.
-
-🌤️ Dynamic Greetings & Icons — Displays morning/afternoon/evening greeting and switches weather icons based on time.
-
-🌡️ Weather Details — Includes:
-
-Temperature
-
-Feels like
-
-Wind speed
-
-Humidity
-
-Pressure
-
-Min/Max temperature
-
-Visibility
-
-Sky description
-
-🧊 Responsive Card Layout — Built with Bootstrap and custom CSS animations.
-
-📦 Context API — Used to manage city input between components.
-
-🛠️ Tech Stack
-React (Functional Components + Hooks)
-
-Bootstrap Icons
-
-OpenWeatherMap API
-
-Axios
-
-Custom CSS for animations and gradients
-
-📦 Installation & Setup
-bash
+yaml
 Copy
 Edit
-# 1. Clone the repo
-git clone https://github.com/<your-username>/<repo-name>.git
 
-# 2. Navigate to the project folder
-cd weather-app
+---
+# Naresh IT Courses Carousel
+## 📸 Screenshots
+![Naresh IT Courses Carousel](image.png)
 
-# 3. Install dependencies
-npm install
 
-# 4. Start the dev server
-npm run dev
-Then open http://localhost:5174 in your browser.
+Live Demo: [Naresh IT Courses Carousel]()
+## 🚀 Features
 
-🌐 API Used
-OpenWeatherMap API
+- 🎠 Bootstrap Carousel for featured course banners
+- 🎓 Dynamic course card slider using React Slick
+- 📦 Local JSON (`cards.json`) used to simulate API data
+- 📱 Responsive design (mobile-friendly)
+- ✅ Simple, clean code structure using React Hooks
 
-Add your API key in the Axios URL:
+---
 
-js
-Copy
-Edit
-https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=YOUR_API_KEY&units=metric
-🖼️ UI Preview
-(You can embed screenshots here — either from local /public or hosted image URLs)
+## 📦 Technologies Used
 
-📁 Folder Structure (Simplified)
-css
-Copy
-Edit
-src/
-│
-├── components/
-│   └── WeatherApp.jsx
-│   └── WeatherAppMain.jsx
-│
-├── styles/
-│   └── weather-app.css
-│
-├── App.jsx
-└── main.jsx
-📌 Deployment (Optional for GitHub Pages)
-If deploying to GitHub Pages, add this in vite.config.js:
+- React.js
+- Axios
+- Bootstrap 5
+- React Slick (`react-slick`)
+- Vite (React + Vite project structure)
 
-js
-Copy
-Edit
-export default defineConfig({
-  base: "/Weather-App/", // Replace with your repo name
-  ...
-});
-Then build and deploy:
+---
 
-bash
-Copy
-Edit
-npm run build
+## 🔧 Setup Instructions
 
-👨‍💻 Author
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/nareshit-carousel.git
+   cd nareshit-carousel
+
+   🙌 Author
 Sachin Parashetti
 
-
-📃 License
-This project is licensed under the MIT License — free to use, modify, and distribute.
