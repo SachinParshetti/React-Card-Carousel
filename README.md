@@ -6,7 +6,7 @@ This project is a modern React-based UI that displays a carousel of featured ima
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the live site](https://github.com/SachinParshetti/React-Card-Carousel/)
+🔗 [Click here to view the live site](https://sachinparshetti.github.io/React-Card-Carousel/)
 
 > Replace the URL above with your actual Netlify/Vercel link.
 
