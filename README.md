@@ -105,7 +105,6 @@ Edit
 ]
 Make sure this file is saved inside the public/ folder as cards.json.
 
-```
 
 
 ## 🧑‍💻 Author
