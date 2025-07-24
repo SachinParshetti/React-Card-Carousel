@@ -105,10 +105,13 @@ Edit
 ]
 Make sure this file is saved inside the public/ folder as cards.json.
 
-📜 License
-This project is licensed under the MIT License
+```
 
-🙌 Author
-Sachin Parashetti
-GitHub – [@SachinParashetti](https://github.com/SachinParshetti)
-LinkedIn – [sachin-parashetti](https://www.linkedin.com/in/sachin-parashetti-99b255259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+## 🧑‍💻 Author
+
+**Sachin Parashetti**  
+
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github&logoColor=white)](https://github.com/SachinParshetti)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-parashetti-99b255259)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sachinparshettisp@gmail.com)
